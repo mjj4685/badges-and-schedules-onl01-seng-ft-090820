@@ -29,6 +29,7 @@ def printer(attendees)
      message("#{new_message}".chomp)
      puts new_message
    end
-   assign_rooms(attendees).each do |new_message|
-     message.push("#{new_message}".chomp)
+   assign_rooms(attendees).each do |room_message|
+     message("#{room_message}".chomp)
+     puts room_message
 end
