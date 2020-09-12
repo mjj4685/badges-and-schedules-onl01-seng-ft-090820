@@ -29,4 +29,5 @@ def printer(attendees)
      puts badge
 end
 
-printer
+end
+
