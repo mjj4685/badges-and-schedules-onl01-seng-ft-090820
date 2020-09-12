@@ -5,18 +5,18 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(attendees)
+def batch_badge_creator(names)
   guestlist = []
-  attendees.each do |name|
+  names.each do |name|
     guestlist.push("Hello, my name is #{name}.")
   end
 
   return guestlist
 end
 
-def assign_rooms(attendees)
+def assign_rooms(names)
   roomlist = []
-  attendees.each_with_index do |name, index|
+  names.each_with_index do |name, index|
     index = index+1
     roomlist.push("Hello, #{name}! You'll be assigned to room #{index}!")
   end
