@@ -27,7 +27,6 @@ end
 def printer(names)
   message = []
    batch_badge_creator(attendees).each do |new_message|
-     index = index+1
      message.push("#{new_message}".chomp)
    end
      puts message
