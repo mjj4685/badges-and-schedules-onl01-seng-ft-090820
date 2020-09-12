@@ -18,6 +18,7 @@ def assign_rooms(names)
     roomlist = index+1
     roomlist.push("Hello, #{name}!" You'll be assigned to room #{roomlist}!")
   end
-
   return roomlist
-end
+  
+  
+
