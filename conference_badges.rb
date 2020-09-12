@@ -21,5 +21,3 @@ def assign_rooms(names)
   return roomlist
 
 end
-
-
