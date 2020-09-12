@@ -25,7 +25,7 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-   batch_badge_creator(attendees).each
-   assign_rooms(attendees)
-  attendees = gets.chomp
+  messages = []
+   batch_badge_creator(attendees).each do |message|
+     message.push("#{one_message}".chomp)
 end
