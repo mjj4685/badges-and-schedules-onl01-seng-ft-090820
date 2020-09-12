@@ -29,4 +29,3 @@ def printer(attendees)
      puts badge
      assign_rooms(attendees).chomp do |room|
        puts room
-end
