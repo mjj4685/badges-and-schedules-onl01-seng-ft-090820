@@ -1,31 +1,23 @@
-def badge_maker(name)
 
+def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
-
-  badges = []
-
-  names.each  { |name| badges.push("Hello, my name is #{name}.")}
-
+  guestlist = []
+  names.each do |name|
+    guestlist.push("Hello, my name is #{name}.")
   end
 
-  return badges
-
+  return guestlist
+end
 
 def assign_rooms(names)
-
-  rooms = []
-
-  rooms.each_with_index do |name, index|
-
-    door = index+1
-
-    rooms.push("Hello, #{name}! You'll be assigned to room #{door}!")
-
+  roomlist = []
+  names.each_with_index do |name, index|
+    roomlist = index+1
+    roomlist.push("Hello, #{name}!" You'll be assigned to room #{final}!")
   end
 
-  return rooms
-
+  return roomlist
 end
