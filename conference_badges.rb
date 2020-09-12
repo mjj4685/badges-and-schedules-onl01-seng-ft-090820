@@ -29,6 +29,4 @@ def printer(attendees)
      puts new_message
    end
 
-printer
 
-end
