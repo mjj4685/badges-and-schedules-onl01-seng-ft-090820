@@ -31,3 +31,7 @@ def printer(attendees)
    assign_rooms(attendees).each do |room_message|
      puts room_message
 end
+
+printer
+
+end
