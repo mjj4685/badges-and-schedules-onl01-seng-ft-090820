@@ -28,3 +28,5 @@ def printer(attendees)
 end
 
 printer("Arel")
+
+end
