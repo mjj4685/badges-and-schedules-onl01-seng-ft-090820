@@ -25,9 +25,9 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-  message = []
    batch_badge_creator(attendees).each do |new_message|
      message.push("#{new_message}".chomp)
    end
-     puts message
+   assign_rooms(attendees).each do |new_message|
+     message.push("#{new_message}".chomp)
 end
