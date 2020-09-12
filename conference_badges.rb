@@ -19,6 +19,3 @@ def assign_rooms(names)
     roomlist.push("Hello, #{name}!" You'll be assigned to room #{roomlist}!")
   end
   return roomlist
-  
-  
-
